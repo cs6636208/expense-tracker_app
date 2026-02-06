@@ -1,2 +1,7 @@
+Web Deployed
+
 https://expense-tracker-456f9.web.app/
+
+Github link (source code)
+
 https://github.com/cs6636208/expense-tracker_app

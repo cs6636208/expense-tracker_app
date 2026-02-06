@@ -4,13 +4,13 @@
 
 ![Expense Tracker](https://img.shields.io/badge/React-18.2.0-blue) ![Vite](https://img.shields.io/badge/Vite-5.0.8-purple) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.0-cyan) ![Firebase](https://img.shields.io/badge/Firebase-10.7.1-orange)
 
-### **ระบบ Authentication (ใหม่!)**
+### **ระบบ Authentication**
 - Login/Register ด้วย Email & Password
 - Session management อัตโนมัติ
 - ปลอดภัยด้วย Firebase Authentication
 - แสดงชื่อผู้ใช้ในระบบ
 
-### **Cloud Database (ใหม่!)**
+### **Cloud Database**
 - บันทึกข้อมูลบน Cloud (Firestore)
 - **Sync ข้อมูลแบบ Real-time**
 - เข้าถึงได้จากทุกเครื่อง
@@ -86,7 +86,7 @@
 ### ข้อกำหนดระบบ
 - Node.js 16+ 
 - npm หรือ yarn
-- **Firebase Account** (ฟรี)
+- **Firebase Account**
 
 ### 1. Clone โปรเจค
 
@@ -176,7 +176,7 @@ npm run preview
 
 ## Deploy
 
-### Firebase Hosting (แนะนำ)
+### Firebase Hosting
 ```bash
 
 npm install -g firebase-tools
@@ -207,7 +207,7 @@ netlify deploy --prod --dir=dist
 
 ## การใช้งาน
 
-### 0. สมัครสมาชิก/เข้าสู่ระบบ (ใหม่!)
+### 0. สมัครสมาชิก/เข้าสู่ระบบ 
 - เปิดแอปครั้งแรกจะเจอหน้า Login
 - **สมัครสมาชิก**: กรอกชื่อ, อีเมล, รหัสผ่าน (อย่างน้อย 6 ตัว)
 - **เข้าสู่ระบบ**: ใช้อีเมลและรหัสผ่านที่สมัครไว้

@@ -26,18 +26,18 @@
 
 **หลังกดบันทึกรายการ** ระบบจะพาไปที่หน้า Dashboard อัตโนมัติ! 
 
-### 📊 Dashboard
+### Dashboard
 - แสดงค่าใช้จ่ายรวมทั้งหมด
 - จำนวนรายการทั้งหมด
 - ค่าเฉลี่ยต่อรายการ
 - รายการ 5 รายการล่าสุด
 - หมวดหมู่ยอดนิยม Top 5
 
-### 📈 กราฟวิเคราะห์
+### กราฟวิเคราะห์
 - **กราฟวงกลม (Pie Chart)** - แสดงสัดส่วนค่าใช้จ่ายแยกตามหมวดหมู่
 - **กราฟแท่ง (Bar Chart)** - แสดงค่าใช้จ่ายรายเดือน (6 เดือนล่าสุด)
 
-### 📊 หน้าสถิติ (Statistics)
+### หน้าสถิติ (Statistics)
 - **สถิติรายการ**
   - รายการสูงสุด
   - รายการต่ำสุด
@@ -51,7 +51,7 @@
   - Progress bar แสดงสัดส่วน
   - หมวดหมู่ที่ใช้จ่ายมากที่สุด
 
-### 🗂️ หมวดหมู่ค่าใช้จ่าย (8 หมวด)
+### หมวดหมู่ค่าใช้จ่าย (8 หมวด)
 - อาหาร
 - การเดินทาง
 - ช้อปปิ้ง
@@ -61,7 +61,7 @@
 - การศึกษา
 - อื่นๆ
 
-### 🔍 ระบบกรอง & เรียงลำดับ
+### ระบบกรอง & เรียงลำดับ
 **กรองตามช่วงเวลา:**
 - ทั้งหมด
 - วันนี้
@@ -76,12 +76,12 @@
 - วันที่ (ใหม่ → เก่า / เก่า → ใหม่)
 - จำนวนเงิน (มาก → น้อย / น้อย → มาก)
 
-### 💾 จัดการข้อมูล
-- ✏️ เพิ่ม/แก้ไข/ลบ รายการได้ง่าย
-- 💿 บันทึกข้อมูลอัตโนมัติด้วย localStorage
-- 🔄 ข้อมูลไม่สูญหายแม้ปิดเบราว์เซอร์
+### จัดการข้อมูล
+- เพิ่ม/แก้ไข/ลบ รายการได้ง่าย
+- บันทึกข้อมูลอัตโนมัติด้วย localStorage
+- ข้อมูลไม่สูญหายแม้ปิดเบราว์เซอร์
 
-## 🚀 การติดตั้งและใช้งาน
+## การติดตั้งและใช้งาน
 
 ### ข้อกำหนดระบบ
 - Node.js 16+ 
@@ -155,37 +155,7 @@ npm run build
 npm run preview
 ```
 
-## 📁 โครงสร้างโปรเจค
-
-```
-expense-tracker-app/
-├── public/                  # Static files
-├── src/
-│   ├── components/         # React Components (7 components)
-│   │   ├── ExpenseTracker.jsx    # Main component with navigation
-│   │   ├── DashboardSummary.jsx  # Dashboard cards
-│   │   ├── Charts.jsx            # Pie & Bar charts
-│   │   ├── Statistics.jsx        # Detailed statistics view
-│   │   ├── ExpenseForm.jsx       # Add/Edit form
-│   │   ├── FilterControls.jsx    # Filter & Sort controls
-│   │   └── ExpenseList.jsx       # Expense items list
-│   ├── utils/              # Utility functions
-│   │   ├── constants.js          # Constants & config
-│   │   ├── helpers.js            # Helper functions
-│   │   └── storage.js            # localStorage functions
-│   ├── styles/             # CSS files
-│   │   └── index.css             # Global styles + Tailwind
-│   ├── App.jsx             # Root component
-│   └── main.jsx            # Entry point
-├── index.html              # HTML template
-├── package.json            # Dependencies
-├── vite.config.js          # Vite configuration
-├── tailwind.config.js      # Tailwind configuration
-├── postcss.config.js       # PostCSS configuration
-└── README.md               # Documentation
-```
-
-## 🛠️ เทคโนโลยีที่ใช้
+## เทคโนโลยีที่ใช้
 
 ### Frontend
 - **React 18** - UI Library
@@ -204,7 +174,7 @@ expense-tracker-app/
 - **Cloud Storage** - เก็บข้อมูลบน Cloud ปลอดภัย
 - **Multi-device** - เข้าถึงได้จากทุกเครื่อง
 
-## 🌐 Deploy
+## Deploy
 
 ### Firebase Hosting (แนะนำ)
 ```bash
@@ -235,8 +205,6 @@ npm run build
 netlify deploy --prod --dir=dist
 ```
 
-**สำคัญ**: อย่าลืมตั้งค่า Environment Variables ในแพลตฟอร์ม Deploy!
-
 ## การใช้งาน
 
 ### 0. สมัครสมาชิก/เข้าสู่ระบบ (ใหม่!)
@@ -247,7 +215,7 @@ netlify deploy --prod --dir=dist
 ### 1. เพิ่มรายการ 
    - กรอกจำนวนเงิน, เลือกหมวดหมู่, ระบุรายละเอียด และเลือกวันที่
    - กดปุ่ม "เพิ่มรายการ"
-   - ระบบจะพาไปที่หน้า Dashboard โดยอัตโนมัติ ✨
+   - ระบบจะพาไปที่หน้า Dashboard โดยอัตโนมัติ 
 
 2. **ดู Dashboard** 
    - ตรวจสอบสรุปค่าใช้จ่ายแบบรวดเร็ว
@@ -271,15 +239,3 @@ netlify deploy --prod --dir=dist
    - เรียงลำดับตามวันที่หรือจำนวนเงิน
    - คลิกไอคอนแก้ไข (จะพาไปหน้าฟอร์มอัตโนมัติ)
    - คลิกไอคอนลบเพื่อลบรายการ
-
-## 📄 License
-
-MIT License - สามารถนำไปใช้และดัดแปลงได้อย่างอิสระ
-
-## 👨‍💻 Developer
-
-สร้างโดย Claude AI Assistant
-
----
-
-**Happy Tracking! 💰📊**
